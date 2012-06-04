@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BC8D25E157D06BB00BF0685 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC8D25D157D06BB00BF0685 /* Cocoa.framework */; };
+		5BC8D268157D06BB00BF0685 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BC8D266157D06BB00BF0685 /* InfoPlist.strings */; };
+		5BC8D26A157D06BB00BF0685 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC8D269157D06BB00BF0685 /* main.m */; };
+		5BC8D26E157D06BB00BF0685 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5BC8D26C157D06BB00BF0685 /* Credits.rtf */; };
+		5BC8D271157D06BB00BF0685 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC8D270157D06BB00BF0685 /* AppDelegate.m */; };
+		5BC8D274157D06BC00BF0685 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BC8D272157D06BC00BF0685 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5BC8D259157D06BB00BF0685 /* TimeLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BC8D25D157D06BB00BF0685 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5BC8D260157D06BB00BF0685 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5BC8D261157D06BB00BF0685 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5BC8D262157D06BB00BF0685 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5BC8D265157D06BB00BF0685 /* TimeLog-Info.plist */ = {isa = PBXFileReference; path = "TimeLog-Info.plist"; sourceTree = "<group>"; };
+		5BC8D267157D06BB00BF0685 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5BC8D269157D06BB00BF0685 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5BC8D26B157D06BB00BF0685 /* TimeLog-Prefix.pch */ = {isa = PBXFileReference; path = "TimeLog-Prefix.pch"; sourceTree = "<group>"; };
+		5BC8D26D157D06BB00BF0685 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		5BC8D26F157D06BB00BF0685 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		5BC8D270157D06BB00BF0685 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5BC8D273157D06BC00BF0685 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BC8D256157D06BB00BF0685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC8D25E157D06BB00BF0685 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BC8D24E157D06BB00BF0685 = {
+			isa = PBXGroup;
+			children = (
+				5BC8D263157D06BB00BF0685 /* TimeLog */,
+				5BC8D25C157D06BB00BF0685 /* Frameworks */,
+				5BC8D25A157D06BB00BF0685 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BC8D25A157D06BB00BF0685 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BC8D259157D06BB00BF0685 /* TimeLog.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BC8D25C157D06BB00BF0685 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BC8D25D157D06BB00BF0685 /* Cocoa.framework */,
+				5BC8D25F157D06BB00BF0685 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BC8D25F157D06BB00BF0685 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BC8D260157D06BB00BF0685 /* AppKit.framework */,
+				5BC8D261157D06BB00BF0685 /* CoreData.framework */,
+				5BC8D262157D06BB00BF0685 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5BC8D263157D06BB00BF0685 /* TimeLog */ = {
+			isa = PBXGroup;
+			children = (
+				5BC8D26F157D06BB00BF0685 /* AppDelegate.h */,
+				5BC8D270157D06BB00BF0685 /* AppDelegate.m */,
+				5BC8D272157D06BC00BF0685 /* MainMenu.xib */,
+				5BC8D264157D06BB00BF0685 /* Supporting Files */,
+			);
+			path = TimeLog;
+			sourceTree = "<group>";
+		};
+		5BC8D264157D06BB00BF0685 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BC8D265157D06BB00BF0685 /* TimeLog-Info.plist */,
+				5BC8D266157D06BB00BF0685 /* InfoPlist.strings */,
+				5BC8D269157D06BB00BF0685 /* main.m */,
+				5BC8D26B157D06BB00BF0685 /* TimeLog-Prefix.pch */,
+				5BC8D26C157D06BB00BF0685 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BC8D258157D06BB00BF0685 /* TimeLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BC8D277157D06BC00BF0685 /* Build configuration list for PBXNativeTarget "TimeLog" */;
+			buildPhases = (
+				5BC8D255157D06BB00BF0685 /* Sources */,
+				5BC8D256157D06BB00BF0685 /* Frameworks */,
+				5BC8D257157D06BB00BF0685 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeLog;
+			productName = TimeLog;
+			productReference = 5BC8D259157D06BB00BF0685 /* TimeLog.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BC8D250157D06BB00BF0685 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Satans Killingar";
+			};
+			buildConfigurationList = 5BC8D253157D06BB00BF0685 /* Build configuration list for PBXProject "TimeLog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5BC8D24E157D06BB00BF0685;
+			productRefGroup = 5BC8D25A157D06BB00BF0685 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BC8D258157D06BB00BF0685 /* TimeLog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BC8D257157D06BB00BF0685 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC8D268157D06BB00BF0685 /* InfoPlist.strings in Resources */,
+				5BC8D26E157D06BB00BF0685 /* Credits.rtf in Resources */,
+				5BC8D274157D06BC00BF0685 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BC8D255157D06BB00BF0685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC8D26A157D06BB00BF0685 /* main.m in Sources */,
+				5BC8D271157D06BB00BF0685 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5BC8D266157D06BB00BF0685 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BC8D267157D06BB00BF0685 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5BC8D26C157D06BB00BF0685 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BC8D26D157D06BB00BF0685 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		5BC8D272157D06BC00BF0685 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BC8D273157D06BC00BF0685 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BC8D275157D06BC00BF0685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5BC8D276157D06BC00BF0685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5BC8D278157D06BC00BF0685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeLog/TimeLog-Prefix.pch";
+				INFOPLIST_FILE = "TimeLog/TimeLog-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5BC8D279157D06BC00BF0685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeLog/TimeLog-Prefix.pch";
+				INFOPLIST_FILE = "TimeLog/TimeLog-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BC8D253157D06BB00BF0685 /* Build configuration list for PBXProject "TimeLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BC8D275157D06BC00BF0685 /* Debug */,
+				5BC8D276157D06BC00BF0685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BC8D277157D06BC00BF0685 /* Build configuration list for PBXNativeTarget "TimeLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BC8D278157D06BC00BF0685 /* Debug */,
+				5BC8D279157D06BC00BF0685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BC8D250157D06BB00BF0685 /* Project object */;
+}
