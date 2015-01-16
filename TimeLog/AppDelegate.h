@@ -8,7 +8,12 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate> {
+    BOOL starcraftRunning;
+}
+
+- (void)locked:(id)sender;
+- (void)unlocked:(id)sender;
 
 @property (assign) IBOutlet NSWindow *window;
 

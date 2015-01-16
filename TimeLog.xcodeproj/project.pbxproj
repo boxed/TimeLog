@@ -13,6 +13,7 @@
 		5BC8D26E157D06BB00BF0685 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5BC8D26C157D06BB00BF0685 /* Credits.rtf */; };
 		5BC8D271157D06BB00BF0685 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC8D270157D06BB00BF0685 /* AppDelegate.m */; };
 		5BC8D274157D06BC00BF0685 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BC8D272157D06BC00BF0685 /* MainMenu.xib */; };
+		5BC8D27F157D0A8600BF0685 /* JAProcessInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC8D27E157D0A8600BF0685 /* JAProcessInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +22,16 @@
 		5BC8D260157D06BB00BF0685 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		5BC8D261157D06BB00BF0685 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		5BC8D262157D06BB00BF0685 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		5BC8D265157D06BB00BF0685 /* TimeLog-Info.plist */ = {isa = PBXFileReference; path = "TimeLog-Info.plist"; sourceTree = "<group>"; };
+		5BC8D265157D06BB00BF0685 /* TimeLog-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimeLog-Info.plist"; sourceTree = "<group>"; };
 		5BC8D267157D06BB00BF0685 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5BC8D269157D06BB00BF0685 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5BC8D26B157D06BB00BF0685 /* TimeLog-Prefix.pch */ = {isa = PBXFileReference; path = "TimeLog-Prefix.pch"; sourceTree = "<group>"; };
+		5BC8D26B157D06BB00BF0685 /* TimeLog-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TimeLog-Prefix.pch"; sourceTree = "<group>"; };
 		5BC8D26D157D06BB00BF0685 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		5BC8D26F157D06BB00BF0685 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		5BC8D26F157D06BB00BF0685 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5BC8D270157D06BB00BF0685 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5BC8D273157D06BC00BF0685 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5BC8D27D157D0A8600BF0685 /* JAProcessInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JAProcessInfo.h; sourceTree = "<group>"; };
+		5BC8D27E157D0A8600BF0685 /* JAProcessInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JAProcessInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				5BC8D270157D06BB00BF0685 /* AppDelegate.m */,
 				5BC8D272157D06BC00BF0685 /* MainMenu.xib */,
 				5BC8D264157D06BB00BF0685 /* Supporting Files */,
+				5BC8D27D157D0A8600BF0685 /* JAProcessInfo.h */,
+				5BC8D27E157D0A8600BF0685 /* JAProcessInfo.m */,
 			);
 			path = TimeLog;
 			sourceTree = "<group>";
@@ -128,7 +133,7 @@
 		5BC8D250157D06BB00BF0685 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0440;
 				ORGANIZATIONNAME = "Satans Killingar";
 			};
 			buildConfigurationList = 5BC8D253157D06BB00BF0685 /* Build configuration list for PBXProject "TimeLog" */;
@@ -168,6 +173,7 @@
 			files = (
 				5BC8D26A157D06BB00BF0685 /* main.m in Sources */,
 				5BC8D271157D06BB00BF0685 /* AppDelegate.m in Sources */,
+				5BC8D27F157D0A8600BF0685 /* JAProcessInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +257,7 @@
 		5BC8D278157D06BC00BF0685 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TimeLog/TimeLog-Prefix.pch";
 				INFOPLIST_FILE = "TimeLog/TimeLog-Info.plist";
@@ -262,6 +269,7 @@
 		5BC8D279157D06BC00BF0685 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TimeLog/TimeLog-Prefix.pch";
 				INFOPLIST_FILE = "TimeLog/TimeLog-Info.plist";
@@ -289,6 +297,7 @@
 				5BC8D279157D06BC00BF0685 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
